@@ -1,0 +1,147 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+body {
+    
+    background-image: url('https://wallpaper.dog/large/987478.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 93vh 7vh ;
+    grid-template-areas: 
+    "mn"
+    "ft"
+    ;
+    
+}
+
+#container {
+    grid-area: mn;
+    
+    
+    
+}
+
+#footer{
+    /* background-color:rgb(221, 216, 216); */
+    
+    
+    /* height: 10vh; */
+    width: 100vw;
+    grid-area: ft;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+    
+}   
+
+.intro {
+    padding: 20vh 0 0;
+	text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    grid-area: mn;
+}
+
+.profile-picture {
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .2s;
+}
+
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:400%;
+  }
+
+h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:200%;
+}
+h4{
+    padding:0.7%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: xx-large;
+    position: relative;
+}
+.quote {
+	font-style: italic;
+}
+.dot {
+    height: 60px;
+    width: 120px;
+    background-color: rgb(134, 179, 221);
+    border-radius: 50%;
+    /* display: inline-block; */
+    position:absolute;
+    bottom: 4.5%;
+    right: 48.88%;
+    margin: -2%;
+  }
+
+a{
+    color: antiquewhite;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+	width: 18px;
+	height: 18px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-linkedin {
+    background: #2c638d;
+    color: white;
+  }
+
+  .fa-github{
+    color: white;
+    background-color: black;
+  }
